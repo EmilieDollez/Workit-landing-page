@@ -33,6 +33,7 @@ module.exports = {
         heading_L: "5rem" /* 80px */,
         heading_M: "3.125rem" /* 50px */,
         heading_S: "2rem" /* 32px */,
+        heading_XS: "1.25rem" /* 20px */,
       },
 
       /* Spacing */

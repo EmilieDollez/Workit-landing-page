@@ -586,6 +586,27 @@ html {
   top: 50px;
 }
 
+.top-\[392\] {
+  top: 392;
+}
+
+.top-\[392px\] {
+  top: 392px;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-\[37px\] {
   margin-top: 37px;
 }
@@ -606,8 +627,16 @@ html {
   display: none;
 }
 
+.h-\[1071px\] {
+  height: 1071px;
+}
+
 .h-\[184px\] {
   height: 184px;
+}
+
+.h-\[206px\] {
+  height: 206px;
 }
 
 .h-\[25px\] {
@@ -634,6 +663,30 @@ html {
   height: 55px;
 }
 
+.h-\[16px\] {
+  height: 16px;
+}
+
+.h-\[46px\] {
+  height: 46px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[136px\] {
+  height: 136px;
+}
+
+.h-\[164px\] {
+  height: 164px;
+}
+
+.h-\[234px\] {
+  height: 234px;
+}
+
 .w-\[124px\] {
   width: 124px;
 }
@@ -650,8 +703,16 @@ html {
   width: 152px;
 }
 
+.w-\[16px\] {
+  width: 16px;
+}
+
 .w-\[320px\] {
   width: 320px;
+}
+
+.w-\[343px\] {
+  width: 343px;
 }
 
 .w-\[375px\] {
@@ -670,6 +731,10 @@ html {
   width: 100%;
 }
 
+.w-\[48px\] {
+  width: 48px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -682,8 +747,61 @@ html {
   justify-content: center;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-\[123px\] {
   gap: 123px;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-\[full\] {
+  border-radius: full;
+}
+
+.rounded-\[30\] {
+  border-radius: 30;
+}
+
+.rounded-\[30\.5px\] {
+  border-radius: 30.5px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-primary_dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(36 5 62 / var(--tw-border-opacity));
 }
 
 .bg-primary_light {
@@ -693,6 +811,10 @@ html {
 
 .bg-dark_wave_mobile {
   background-image: url('./assets/images/dark_wave_mobile.svg');
+}
+
+.bg-light_wave_mobile {
+  background-image: url('./assets/images/light_wave_mobile.svg');
 }
 
 .bg-cover {
@@ -711,6 +833,14 @@ html {
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.pt-\[245px\] {
+  padding-top: 245px;
+}
+
+.pb-\[71px\] {
+  padding-bottom: 71px;
 }
 
 .text-center {
@@ -734,12 +864,24 @@ html {
   font-size: 3.125rem;
 }
 
+.text-heading_XS {
+  font-size: 1.25rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .not-italic {
@@ -756,6 +898,18 @@ html {
 
 .leading-heading_XS {
   line-height: 2rem;
+}
+
+.leading-\[36px\] {
+  line-height: 36px;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[28px\] {
+  line-height: 28px;
 }
 
 .tracking-\[-0\.40px\] {
