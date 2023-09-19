@@ -1,0 +1,25 @@
+/* Chemin relatif vers le fichier de polices */
+@font-face {
+  /* Font : Fraunces */
+  font-family: "Fraunces";
+  src: url('../src/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf')
+    format("truetype");
+}
+
+@font-face {
+  /* Font : Manrope */
+  font-family: "Manrope";
+  src: url('../src/fonts/manrope/static/Manrope-Regular.ttf')
+    format("truetype");
+}
+
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-textColor;
+    @apply font-Manrope;
+  }
+}
+@tailwind components;
+@tailwind utilities;
