@@ -1,17 +1,56 @@
 /* Chemin relatif vers le fichier de polices */
 @font-face {
   /* Font : Fraunces */
-  font-family: "Fraunces";
-  src: url('../src/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf')
-    format("truetype");
+  font-family: "fraunces_144pt";
+  src: url("../src/fonts/fraunces/static/Fraunces_144pt-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  /* Font : Fraunces */
+  font-family: "fraunces_144pt";
+  src: url("../src/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf") format("truetype");
+  font-style: semi-bold;
+  font-weight: 600;
 }
 
 @font-face {
   /* Font : Manrope */
   font-family: "Manrope";
-  src: url('../src/fonts/manrope/static/Manrope-Regular.ttf')
-    format("truetype");
+  src: url("../src/fonts/manrope/static/Manrope-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
 }
+
+@font-face {
+  /* Font : Manrope */
+  font-family: "Manrope";
+  src: url("../src/fonts/manrope/static/Manrope-ExtraLight.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  /* Font : Manrope */
+  font-family: "Manrope";
+  src: url("../src/fonts/manrope/static/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  /* Font : Manrope */
+  font-family: "Manrope";
+  src: url("../src/fonts/manrope/static/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  /* Font : Manrope */
+  font-family: "Manrope";
+  src: url("../src/fonts/manrope/static/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+
 
 @tailwind base;
 

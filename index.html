@@ -10,15 +10,14 @@
       type="image/png"
       sizes="32x32"
       href="./dist/assets/images/favicon-32x32.png"
-    />
-    
-    
+    /> 
 
     <title>Frontend Mentor | Workit landing page</title>
   </head>
+  
   <body>
 
-    <header class="relative z-10 flex flex-col mx-auto items-center w-[375px] h-[482px] bg-dark_wave_mobile bg-cover bg-center">
+    <header class="relative z-10 flex flex-col mx-auto items-center w-[375px] min-h-[482px] bg-dark_wave_mobile bg-cover bg-center">
       
       <div class="flex items-center justify-center gap-[123px] mt-[37px] w-full">
         <img
@@ -27,27 +26,27 @@
           class="w-[96px] h-[25px]"
         />
 
-        <div class="relative w-[125px] h-[34px]">
+        <div class="relative h-[34px] border-b-[3px] border-solid border-primary_light">
           <a 
               href="#" 
-              class="w-full h-[32px] text-white text-center text-[16px] tracking-[0.28px] font-bold leading-[32px] py-[5px]"> 
+              class="w-full h-[32px] text-white text-center text-[16px] tracking-[-0.16px] font-semibold leading-[32px] pt-[5px] pb-[6px] "> 
             Apply for access
           </a>
 
-          <div class="absolute top-[31px] w-[124px] h-[3px] bg-primary_light "></div>
+          <!-- <div class="absolute top-[31px] w-[124px] h-[3px] bg-primary_light "></div> -->
         </div>
       </div>
 
       <div class="relative flex flex-col items-center w-full mt-[59px]">
         
-        <h1 class="text-white font-semibold not-italic text-center text-heading_M font-Fraunces leading-heading_M px-[16px]">
+        <h1 class="text-white font-normal text-center text-[3.125rem] font-Fraunces_144pt leading-[50px] tracking-[1px] px-[16px]">
           Data tailored to your needs. 
         </h1>
         
         <div class="absolute top-[50px] left-[141px] w-[152px] h-[3px] bg-primary_light"></div>
         
         <button class="w-[133px] h-[55px] mt-[40px] bg-primary_light"> 
-          <span class="w-[86px] h-[32px] py-[5px] text-base text-center font-bold text-primary_dark leading-heading_XS tracking-[-0.40px]"> 
+          <span class="w-[86px] h-[32px] py-[5px] text-base text-center font-bold text-primary_dark leading-heading_XS tracking-[-0.16px]"> 
             Learn more 
           </span>
         </button>
@@ -61,53 +60,53 @@
      
     </header>
 
-    <main class="absolute flex flex-col items-center justify-center gap-10 mx-auto bg-center bg-cover top-[392px]">
+    <main class="w-[375px] flex flex-col items-center justify-center mx-auto mt-[-89px] bg-center bg-cover ">
 
-      <section class="flex flex-col items-center gap-10 justify-center mx-auto pt-[245px] pb-[71px] w-[375px] h-[1071px] bg-light_wave_mobile bg-cover bg-center">
+      <section class="flex flex-col items-center gap-10 justify-center mx-auto pt-[245px] pb-[71px] w-[375px] min-h-[1071px] bg-light_wave_mobile bg-cover bg-center">
       
-        <div class="flex flex-col items-center gap-6 w-[343px] h-[206px]">
-          <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces font-semibold leading-[36px]">
+        <div class="flex flex-col items-center gap-6 w-[343px] min-h-[206px]">
+          <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces_144pt font-semibold leading-[36px]">
               1 
           </span> 
           
           <section class="flex flex-col gap-4 h-[136px]">
-            <h2 class="w-full text-center font-Fraunces text-[28px] font-semibold leading-[36px]"> 
+            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px]"> 
               Actionable insights 
             </h2> 
             
-            <p class="text-[16px] text-center font-normal leading-[28px]">
+            <p class="text-[16px] text-center font-light leading-[28px]">
             Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.
             </p>
           </section>
         </div>
 
-        <div class="flex flex-col items-center gap-6 w-[343px] h-[234px]">
-          <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces font-semibold leading-[36px]">
+        <div class="flex flex-col items-center gap-6 w-[343px] min-h-[234px]">
+          <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces_144pt font-semibold leading-[36px]">
             2
           </span> 
           
-          <section class="flex flex-col gap-4 h-[164px]">
-            <h2 class="w-full text-center font-Fraunces text-[28px] font-semibold leading-[36px]"> 
+          <section class="flex flex-col gap-4 min-h-[164px]">
+            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px]"> 
               Data-driven decisions
             </h2> 
             
-            <p class="text-[16px] text-center font-normal leading-[28px]">
+            <p class="text-[16px] text-center font-light leading-[28px]">
               Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.
             </p>
           </section>
         </div>
 
-        <div class="flex flex-col items-center gap-6 w-[343px] h-[234px]">
-          <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces font-semibold leading-[36px]">
+        <div class="flex flex-col items-center gap-6 w-[343px] min-h-[234px]">
+          <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces_144pt font-semibold leading-[36px]">
             3
           </span> 
           
           <section class="flex flex-col gap-4 h-[164px]">
-            <h2 class="w-full text-center font-Fraunces text-[28px] font-semibold leading-[36px]"> 
+            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px]"> 
               Always affordable
             </h2> 
             
-            <p class="text-[16px] text-center font-normal leading-[28px]">
+            <p class="text-[16px] text-center font-light leading-[28px]">
               Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.
             </p>
           </section>
@@ -115,15 +114,60 @@
         
       </section>
 
-      <div>  
-        Be the first to test Hi,
-        I'm Louis Graham, the founder of the company. Book a demo call with me to
-        become a beta tester for our app and kickstart your company. Apply for
-        access below and I’ll be in touch to schedule a call. Apply for access
+      <div class="relative w-[343px] h-[603px] mt-[100px]"> 
+        
+        <img
+          src="./dist/assets/images/image-founder.webp"
+          alt="Le logo en couleur claire"
+          class="mx-auto w-[281px] h-[281px]"
+        />
+
+        <!-- <section class="absolute top-[328px] w-full h-[375px] text-center text-white bg-primary_dark"> -->
+        <section class="absolute top-[228px] w-full min-h-[375px] text-center text-white bg-primary_dark">
+        
+          <h2 class="font-Fraunces_144pt text-[32px] font-normal leading-[48px] px-[31.5px] mt-[32px]">  
+            Be the first to test 
+          </h2>
+          
+          <p class="px-[35px] mt-4 mb-6 text-base font-extralight leading-7">
+            Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.
+          </p> 
+      
+          <button class="w-[172px] h-[55px] bg-primary_light">
+            <span class="text-[16px] text-center font-extrabold text-primary_dark leading-heading_XS tracking-[-0.16px] py-[5px]">
+              Apply for access
+            </span>
+          </button>
+
+        </section>
       </div>
     
     </main>
 
-    <footer></footer>
+    <footer class="flex flex-col justify-between items-center w-[116px] min-h-[102px] mx-auto mt-[74px] mb-[64px]">
+      <img
+          src="./dist/assets/images/logo-dark.svg"
+          alt="Le logo en couleur foncée"
+          class="w-full px-2"
+      />
+
+      <div class="flex justify-between w-[116px]">
+        <img
+          src="./dist/assets/images/icon-facebook.svg"
+          alt="Le logo de Facebook"
+          class="w-[20px] h-[20px]"
+      />
+      <img
+          src="./dist/assets/images/icon-twitter.svg"
+          alt="Le logo de Twitter"
+          class="w-[20px] h-[20px]"
+      />
+      <img
+          src="./dist/assets/images/icon-instagram.svg"
+          alt="Le logo d'instagram"
+          class="w-[20px] h-[20px]"
+      />
+      </div>
+    </footer>
   </body>
 </html>

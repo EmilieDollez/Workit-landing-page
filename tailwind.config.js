@@ -6,8 +6,8 @@ module.exports = {
       /* Fonts */
 
       fontFamily: {
-        Fraunces: ["fraunces", "semi_bold"],
-        Manrope: ["manrope", "regular"],
+        Fraunces_144pt: ["fraunces_144pt", "bold", "semi_bold", "regular"],
+        Manrope: ["manrope"],
       },
 
       /* Colors */
