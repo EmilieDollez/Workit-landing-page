@@ -17,7 +17,7 @@
   
   <body>
 
-    <header class="header_content relative z-10 flex flex-col mx-auto items-center w-[375px] min-h-[482px] bg-dark_wave_mobile bg-cover bg-center overflow-x-hidden md:bg-dark_wave md:w-screen md:min-h-[540px]">
+    <header class="header_content relative z-10 flex flex-col mx-auto items-center min-w-[375px] min-h-[482px] bg-dark_wave_mobile bg-cover bg-center overflow-x-hidden md:bg-dark_wave md:w-screen md:min-h-[540px]">
       
       <img
       src="./dist/assets/images/bg-pattern-1.svg"
@@ -70,53 +70,53 @@
         class="absolute z-20 top-[389px] left-[36px] max-w-[320px] md:max-w-[480px] md:max-h-[287px] md:top-[392px] md:left-[151px]">
     </img>
 
-    <main class="w-[375px] flex flex-col items-center justify-center mx-auto mt-[-89px] bg-center bg-cover ">
+    <main class="min-w-[375px] flex flex-col items-center justify-center mx-auto mt-[-89px] bg-center bg-cover md:min-w-[768px] md:pb-24 md:mt-[-145px]">
 
-      <section class="flex flex-col items-center gap-10 justify-center mx-auto pt-[245px] pb-[71px] w-[375px] min-h-[1071px] bg-light_wave_mobile bg-cover bg-center">
+      <section class="flex flex-col items-center gap-10 justify-center mx-auto pt-[245px] pb-[71px] w-full min-h-[1071px] bg-light_wave_mobile bg-cover bg-center md:bg-light_wave md:min-h-[920px] md:gap-r-12 md:pt-[341px] md:pb-[104px] md:px-[98px]">
       
-        <div class="flex flex-col items-center gap-6 w-[343px] min-h-[206px]">
+        <div class="flex flex-col items-center gap-6 w-full min-h-[206px] px-[16px] md:flex-row md:min-h-[108px] md:gap-r-8">
           <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces_144pt font-semibold leading-[36px]">
               1 
           </span> 
           
-          <section class="flex flex-col gap-4 h-[136px]">
-            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px]"> 
+          <section class="flex flex-col gap-4 h-[136px] md:justify-center md:h-full">
+            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px] md:text-left"> 
               Actionable insights 
             </h2> 
             
-            <p class="text-[16px] text-center font-light leading-[28px]">
+            <p class="text-[16px] text-center font-light leading-[28px] md:text-left">
             Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.
             </p>
           </section>
         </div>
 
-        <div class="flex flex-col items-center gap-6 w-[343px] min-h-[234px]">
+        <div class="flex flex-col items-center gap-6 w-full min-h-[234px] px-[16px] md:flex-row md:min-h-[136px] md:gap-r-8">
           <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces_144pt font-semibold leading-[36px]">
             2
           </span> 
           
-          <section class="flex flex-col gap-4 min-h-[164px]">
-            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px]"> 
+          <section class="flex flex-col gap-4 min-h-[164px] md:justify-center md:h-full">
+            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px] md:text-left"> 
               Data-driven decisions
             </h2> 
             
-            <p class="text-[16px] text-center font-light leading-[28px]">
+            <p class="text-[16px] text-center font-light leading-[28px] md:text-left">
               Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.
             </p>
           </section>
         </div>
 
-        <div class="flex flex-col items-center gap-6 w-[343px] min-h-[234px]">
+        <div class="flex flex-col items-center gap-6 w-full min-h-[234px] px-[16px] md:flex-row md:min-h-[136px] md:gap-r-8">
           <span class="w-[48px] h-[46px] py-[5px] px-[16px] border-solid border-primary_dark border rounded-[30.5px] text-center text-heading_XS text-primary_dark font-Fraunces_144pt font-semibold leading-[36px]">
             3
           </span> 
           
-          <section class="flex flex-col gap-4 h-[164px]">
-            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px]"> 
+          <section class="flex flex-col gap-4 h-[164px] md:justify-center md:h-full">
+            <h2 class="w-full text-center font-Fraunces_144pt text-[28px] font-semibold leading-[36px] md:text-left"> 
               Always affordable
             </h2> 
             
-            <p class="text-[16px] text-center font-light leading-[28px]">
+            <p class="text-[16px] text-center font-light leading-[28px] md:text-left">
               Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.
             </p>
           </section>
@@ -124,31 +124,34 @@
         
       </section>
 
-      <div class="relative w-[343px] h-[603px] mt-[100px]"> 
+      <div class="relative mt-[100px] w-full"> 
         
         <img
           src="./dist/assets/images/image-founder.webp"
           alt="Le logo en couleur claire"
-          class="mx-auto w-[281px] h-[281px]"
+          class="mx-auto w-[281px] h-[281px] md:ml-[39px]"
         />
 
-        <!-- <section class="absolute top-[328px] w-full h-[375px] text-center text-white bg-primary_dark"> -->
-        <section class="absolute top-[228px] w-full min-h-[375px] text-center text-white bg-primary_dark">
+        <section class="absolute top-[228px] min-h-[375px] mx-4 text-center text-white bg-primary_dark md:top-[151px] md:left-[214px] md:mx-0 md:mr-[40px] md:text-left">
         
-          <h2 class="font-Fraunces_144pt text-[32px] font-normal leading-[48px] px-[31.5px] mt-[32px]">  
+          <h2 class="font-Fraunces_144pt text-[32px] font-semibold leading-[48px] pl-[31.5px] pr-[31.5px] mt-[32px] md:text-5xl md:leading-[56px] md:pl-[56.5px] md:pr-0 md:mt-[48px] md:mb-[24px]">  
             Be the first to test 
           </h2>
           
-          <p class="px-[35px] mt-4 mb-6 text-base font-extralight leading-7">
+          <p class="px-[35px] mt-4 mb-6 text-[16px] font-extralight leading-7 md:px-[56px] md:mt-0 md:tracking-[-0.010em] md:text-[17px] ">
             Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.
           </p> 
       
-          <button class="w-[172px] h-[55px] bg-primary_light">
+          <button class="min-w-[172px] min-h-[55px] bg-primary_light md:ml-[56px]">
             <span class="text-[16px] text-center font-extrabold text-primary_dark leading-heading_XS tracking-[-0.16px] py-[5px]">
               Apply for access
             </span>
           </button>
-
+          
+          <img
+            src="./dist/assets/images/bg-pattern-3.svg"
+            class="hidden absolute top-[269px] right-[13px] md:block">
+          </img>
         </section>
       </div>
     

@@ -50,7 +50,8 @@ module.exports = {
       backgroundImage: {
         "dark_wave_mobile": "url('./assets/images/dark_wave_mobile.svg')",
         "light_wave_mobile": "url('./assets/images/light_wave_mobile.svg')",
-        "dark_wave": "url('./assets/images/wave.svg')",
+        "dark_wave": "url('./assets/images/dark_wave.svg')",
+        "light_wave": "url('./assets/images/light_wave.svg')",
       },
     },
   },
