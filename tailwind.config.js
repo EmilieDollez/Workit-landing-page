@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    screens: {
+      'sm': '375px',
+      'md': '768px',
+      'lt': '1024px',
+      'lg': '1440px', // => @media (min-width: 1440px) { ... }
+    },
     extend: {
       /* Fonts */
 
@@ -27,24 +33,6 @@ module.exports = {
         white: "#FFFFFF",
       },
 
-      /* Font Sizes */
-
-      fontSize: {
-        heading_L: "5rem" /* 80px */,
-        heading_M: "3.125rem" /* 50px */,
-        heading_S: "2rem" /* 32px */,
-        heading_XS: "1.25rem" /* 20px */,
-      },
-
-      /* Spacing */
-
-      lineHeight: {
-        heading_L: "5rem" /* 80px */,
-        heading_M: "3.125rem" /* 50px */,
-        heading_S: "2.5rem" /* 40px */,
-        heading_XS: "2rem" /* 32px */,
-      },
-
       /* Background image */
 
       backgroundImage: {
@@ -52,8 +40,17 @@ module.exports = {
         "light_wave_mobile": "url('./assets/images/light_wave_mobile.svg')",
         "dark_wave": "url('./assets/images/dark_wave.svg')",
         "light_wave": "url('./assets/images/light_wave.svg')",
+        "dark_wave_desktop": "url('./assets/images/dark_wave_desktop.svg')",
+        "light_wave_desktop": "url('./assets/images/light_wave_desktop.svg')",
       },
+
+      /* Media Query */
+
+      screens: {
+        'lt': '1024px',
+        // => @media (min-width: 640px) { ... }
     },
   },
   plugins: [],
-};
+}
+}
