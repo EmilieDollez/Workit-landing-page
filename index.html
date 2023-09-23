@@ -17,9 +17,19 @@
   
   <body>
 
-    <header class="relative z-10 flex flex-col mx-auto items-center w-[375px] min-h-[482px] bg-dark_wave_mobile bg-cover bg-center">
+    <header class="header_content relative z-10 flex flex-col mx-auto items-center w-[375px] min-h-[482px] bg-dark_wave_mobile bg-cover bg-center overflow-x-hidden md:bg-dark_wave md:w-screen md:min-h-[540px]">
       
-      <div class="flex items-center justify-center gap-[123px] mt-[37px] w-full">
+      <img
+      src="./dist/assets/images/bg-pattern-1.svg"
+      class="hidden absolute top-[80px] left-[-230px] md:block">
+      </img>
+      
+      <img
+      src="./dist/assets/images/bg-pattern-2.svg"
+      class="little_circle hidden absolute top-[250px] right-[-94px] md:block">
+      </img>
+      
+      <div class="flex items-center justify-between px-[16px] mt-[37px] w-full">
         <img
           src="./dist/assets/images/logo-light.svg"
           alt="Le logo en couleur claire"
@@ -39,26 +49,26 @@
 
       <div class="relative flex flex-col items-center w-full mt-[59px]">
         
-        <h1 class="text-white font-normal text-center text-[3.125rem] font-Fraunces_144pt leading-[50px] tracking-[1px] px-[16px]">
+        <h1 class="text-white font-normal text-center text-[3.125rem] font-Fraunces_144pt leading-[50px] tracking-[1px] px-[16px] md:text-[3.750rem] md:leading-[60px] md:tracking-0 md:mx-[97px] md:px-[50px]">
           Data tailored to your needs. 
         </h1>
         
-        <div class="absolute top-[50px] left-[141px] w-[152px] h-[3px] bg-primary_light"></div>
+        <div class="absolute top-[50px] left-[141px] w-[152px] h-[3px] bg-primary_light md:w-[180px] md:top-[60px] md:left-[327px]"></div>
         
-        <button class="w-[133px] h-[55px] mt-[40px] bg-primary_light"> 
+        <button class="w-fit mt-[40px] px-[24px] py-[12px] bg-primary_light md:mt-[39px] "> 
           <span class="w-[86px] h-[32px] py-[5px] text-base text-center font-bold text-primary_dark leading-heading_XS tracking-[-0.16px]"> 
             Learn more 
           </span>
         </button>
       </div>
-
-      <img
-        src="./dist/assets/images/image-hero.webp"
-        alt="L'illustration du téléphone"
-        class="absolute top-[389px] left-[36px] w-[320px] h-[184px]">
-      </img>
      
     </header>
+
+    <img
+        src="./dist/assets/images/image-hero.webp"
+        alt="L'illustration du téléphone"
+        class="absolute z-20 top-[389px] left-[36px] max-w-[320px] md:max-w-[480px] md:max-h-[287px] md:top-[392px] md:left-[151px]">
+    </img>
 
     <main class="w-[375px] flex flex-col items-center justify-center mx-auto mt-[-89px] bg-center bg-cover ">
 
